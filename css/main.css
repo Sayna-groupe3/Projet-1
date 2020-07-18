@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.voiture{
+	position: relative;
+	background-color: grey;
+	width: 100px;
+	height: 100Px;
+
+
+}
+.parking{
+	width: 200px;
+	height: 400px;
+	background-color: grey;
+	border-color: #000000;
+	border-width: 25px;
+	border-radius: 25px;
+	float: left;
+}
+.parking .parking-text{
+	font-family: sans-serif;
+	text-align: center;
+	color: #ffffff;
+	font-weight: 5px;
+
+}
+.button{
+	float: right;
+	margin-top: 300px;
+	margin: 0 auto;
+	display: inline-block;
+}
+.button img{
+	width: 50px;
+	height: 50px;
+	margin-top: 30px;
+
+}
